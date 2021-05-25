@@ -7,6 +7,8 @@ public class QueueOperations {
 		queue.insert(20);
 		queue.insert(30);
 		queue.print();
+		queue.peek();
+		System.out.println("Queue after remove operation:");
 		queue.remove();
 		queue.print();
 	}
